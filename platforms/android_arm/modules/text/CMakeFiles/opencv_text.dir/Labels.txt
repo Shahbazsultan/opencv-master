@@ -1,0 +1,39 @@
+# Target labels
+ Extra
+ opencv_text
+ Module
+# Source files and their labels
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/include/opencv2/text.hpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/include/opencv2/text/erfilter.hpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/include/opencv2/text/ocr.hpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/src/erfilter.cpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/src/ocr_beamsearch_decoder.cpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/src/ocr_hmm_decoder.cpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/src/ocr_tesseract.cpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/text/src/precomp.hpp
+ Extra
+ opencv_text
+ Module
+C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/cvconfig.h
+C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/opencv2/opencv_modules.hpp

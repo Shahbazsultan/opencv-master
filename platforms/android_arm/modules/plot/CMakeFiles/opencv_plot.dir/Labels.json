@@ -1,0 +1,34 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/plot/include/opencv2/plot.hpp",
+			"labels" : [ "Extra", "opencv_plot", "Module" ]
+		},
+		
+		{
+			"file" : "C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/plot/src/plot.cpp",
+			"labels" : [ "Extra", "opencv_plot", "Module" ]
+		},
+		
+		{
+			"file" : "C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/plot/src/precomp.hpp",
+			"labels" : [ "Extra", "opencv_plot", "Module" ]
+		},
+		
+		{
+			"file" : "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/cvconfig.h"
+		},
+		
+		{
+			"file" : "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Extra", "opencv_plot", "Module" ],
+		"name" : "opencv_plot"
+	}
+}

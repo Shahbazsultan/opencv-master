@@ -1,0 +1,39 @@
+# Target labels
+ Extra
+ opencv_aruco
+ Module
+# Source files and their labels
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/include/opencv2/aruco.hpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/include/opencv2/aruco/charuco.hpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/include/opencv2/aruco/dictionary.hpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/src/aruco.cpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/src/charuco.cpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/src/dictionary.cpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/src/precomp.hpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv_contrib-master/opencv_contrib-master/modules/aruco/src/predefined_dictionaries.hpp
+ Extra
+ opencv_aruco
+ Module
+C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/cvconfig.h
+C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/opencv2/opencv_modules.hpp

@@ -1,0 +1,813 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.10240 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++.exe 
+Build flags: -fexceptions;-frtti;-fpic;-Wno-psabi;--sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm;-funwind-tables;-finline-limit=64;-fsigned-char;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-fdata-sections;-ffunction-sections;-Wa,--noexecstack;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/3.8.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc.exe 
+Build flags: -fexceptions;-fpic;-Wno-psabi;--sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm;-funwind-tables;-finline-limit=64;-fsigned-char;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-fdata-sections;-ffunction-sections;-Wa,--noexecstack;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/3.8.1/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_e551f/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_e551f.dir\build.make CMakeFiles/cmTC_e551f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e551f.dir/testCXXCompiler.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_e551f.dir\testCXXCompiler.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_e551f
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e551f.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_e551f.dir/testCXXCompiler.cxx.o -o cmTC_e551f  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_9570a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9570a.dir\build.make CMakeFiles/cmTC_9570a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_9570a.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_9570a
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9570a.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9570a  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+Using built-in specs.
+COLLECT_GCC=C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --target=arm-linux-androideabi --host=x86_64-pc-mingw32msvc --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -static-libstdc++ -lstdc++ -lm -static' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --with-sysroot=/tmp/54f254f8bb7b48dd787052921220a87d/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/54f254f8bb7b48dd787052921220a87d/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-fexceptions' '-frtti' '-fpic' '-Wno-psabi' '-funwind-tables' '-finline-limit=64' '-fsigned-char' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_9570a' '-L\libs\armeabi-v7a' '-mtls-dialect=gnu'
+ C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe -plugin C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll -plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Shahbaz\AppData\Local\Temp\ccs4gfNa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_9570a C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L\libs\armeabi-v7a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib --fix-cortex-a8 --no-undefined -allow-shlib-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a -lm -lgcc -lc -ldl -lgcc C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_9570a/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9570a.dir\build.make CMakeFiles/cmTC_9570a.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_9570a.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_9570a]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9570a.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9570a  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --target=arm-linux-androideabi --host=x86_64-pc-mingw32msvc --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -static-libstdc++ -lstdc++ -lm -static' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --with-sysroot=/tmp/54f254f8bb7b48dd787052921220a87d/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/54f254f8bb7b48dd787052921220a87d/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fexceptions' '-frtti' '-fpic' '-Wno-psabi' '-funwind-tables' '-finline-limit=64' '-fsigned-char' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_9570a' '-L\libs\armeabi-v7a' '-mtls-dialect=gnu']
+  link line: [ C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe -plugin C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll -plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Shahbaz\AppData\Local\Temp\ccs4gfNa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_9570a C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L\libs\armeabi-v7a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib --fix-cortex-a8 --no-undefined -allow-shlib-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a -lm -lgcc -lc -ldl -lgcc C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o]
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:UsersShahbazAppDataLocalTempccs4gfNa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9570a] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-Llibsarmeabi-v7a] ==> ignore
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-allow-shlib-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_9570a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a] ==> lib [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a]
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a] ==> lib [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit libs: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a;m;c;dl]
+  implicit dirs: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_78604/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_78604.dir\build.make CMakeFiles/cmTC_78604.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78604.dir/feature_tests.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c++14 -o CMakeFiles\cmTC_78604.dir\feature_tests.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_78604
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_78604.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_78604.dir/feature_tests.cxx.o -o cmTC_78604  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d6c95/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d6c95.dir\build.make CMakeFiles/cmTC_d6c95.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6c95.dir/feature_tests.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c++11 -o CMakeFiles\cmTC_d6c95.dir\feature_tests.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_d6c95
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d6c95.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_d6c95.dir/feature_tests.cxx.o -o cmTC_d6c95  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6ec5a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6ec5a.dir\build.make CMakeFiles/cmTC_6ec5a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ec5a.dir/feature_tests.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c++98 -o CMakeFiles\cmTC_6ec5a.dir\feature_tests.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_6ec5a
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6ec5a.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_6ec5a.dir/feature_tests.cxx.o -o cmTC_6ec5a  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f7bda/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f7bda.dir\build.make CMakeFiles/cmTC_f7bda.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7bda.dir/testCCompiler.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_f7bda.dir\testCCompiler.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f7bda
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f7bda.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f7bda.dir/testCCompiler.c.o -o cmTC_f7bda  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d9839/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d9839.dir\build.make CMakeFiles/cmTC_d9839.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_d9839.dir\CMakeCCompilerABI.c.o   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_d9839
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d9839.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o -o cmTC_d9839  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+Using built-in specs.
+COLLECT_GCC=C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe
+Target: arm-linux-androideabi
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --target=arm-linux-androideabi --host=x86_64-pc-mingw32msvc --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -static-libstdc++ -lstdc++ -lm -static' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --with-sysroot=/tmp/54f254f8bb7b48dd787052921220a87d/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/54f254f8bb7b48dd787052921220a87d/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-fexceptions' '-fpic' '-Wno-psabi' '-funwind-tables' '-finline-limit=64' '-fsigned-char' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_d9839' '-L\libs\armeabi-v7a' '-mtls-dialect=gnu'
+ C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe -plugin C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll -plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Shahbaz\AppData\Local\Temp\ccfJGLAg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_d9839 C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L\libs\armeabi-v7a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib --fix-cortex-a8 --no-undefined -allow-shlib-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a -lgcc -lc -ldl -lgcc C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d9839/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d9839.dir\build.make CMakeFiles/cmTC_d9839.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o]
+  ignore line: [C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -o CMakeFiles\cmTC_d9839.dir\CMakeCCompilerABI.c.o   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_d9839]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d9839.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o -o cmTC_d9839  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --target=arm-linux-androideabi --host=x86_64-pc-mingw32msvc --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -static-libstdc++ -lstdc++ -lm -static' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/54f254f8bb7b48dd787052921220a87d --with-sysroot=/tmp/54f254f8bb7b48dd787052921220a87d/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/54f254f8bb7b48dd787052921220a87d/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/]
+  ignore line: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fexceptions' '-fpic' '-Wno-psabi' '-funwind-tables' '-finline-limit=64' '-fsigned-char' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_d9839' '-L\libs\armeabi-v7a' '-mtls-dialect=gnu']
+  link line: [ C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe -plugin C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll -plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Shahbaz\AppData\Local\Temp\ccfJGLAg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_d9839 C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o -L\libs\armeabi-v7a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib --fix-cortex-a8 --no-undefined -allow-shlib-undefined --gc-sections -z noexecstack -z relro -z now -z nocopyreloc CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a -lgcc -lc -ldl -lgcc C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o]
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:UsersShahbazAppDataLocalTempccfJGLAg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d9839] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-Llibsarmeabi-v7a] ==> ignore
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-LC:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-allow-shlib-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_d9839.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a] ==> lib [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib] ==> [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit libs: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a;c;dl]
+  implicit dirs: [C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib;C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_55ea9/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_55ea9.dir\build.make CMakeFiles/cmTC_55ea9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55ea9.dir/feature_tests.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c11 -o CMakeFiles\cmTC_55ea9.dir\feature_tests.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.c
+Linking C executable cmTC_55ea9
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_55ea9.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_55ea9.dir/feature_tests.c.o -o cmTC_55ea9  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_769d9/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_769d9.dir\build.make CMakeFiles/cmTC_769d9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_769d9.dir/feature_tests.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c99 -o CMakeFiles\cmTC_769d9.dir\feature_tests.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.c
+Linking C executable cmTC_769d9
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_769d9.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_769d9.dir/feature_tests.c.o -o cmTC_769d9  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8ab46/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8ab46.dir\build.make CMakeFiles/cmTC_8ab46.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ab46.dir/feature_tests.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -std=c90 -o CMakeFiles\cmTC_8ab46.dir\feature_tests.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\feature_tests.c
+Linking C executable cmTC_8ab46
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ab46.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8ab46.dir/feature_tests.c.o -o cmTC_8ab46  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_6e1aa/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6e1aa.dir\build.make CMakeFiles/cmTC_6e1aa.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e1aa.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_6e1aa.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_6e1aa
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6e1aa.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_6e1aa.dir/CheckIncludeFile.c.o -o cmTC_6e1aa  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_9ec91/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9ec91.dir\build.make CMakeFiles/cmTC_9ec91.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ec91.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_9ec91.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_9ec91
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9ec91.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_9ec91.dir/CheckIncludeFile.c.o -o cmTC_9ec91  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_2b562/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2b562.dir\build.make CMakeFiles/cmTC_2b562.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b562.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_2b562.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_2b562
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2b562.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_2b562.dir/CheckIncludeFile.c.o -o cmTC_2b562  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d9cc3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d9cc3.dir\build.make CMakeFiles/cmTC_d9cc3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9cc3.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_d9cc3.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_d9cc3
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d9cc3.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_d9cc3.dir/CheckIncludeFile.c.o -o cmTC_d9cc3  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f9f04/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f9f04.dir\build.make CMakeFiles/cmTC_f9f04.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9f04.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_f9f04.dir\CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_f9f04
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f9f04.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_f9f04.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o -o cmTC_f9f04  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c7b46/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c7b46.dir\build.make CMakeFiles/cmTC_c7b46.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7b46.dir/TestEndianess.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_c7b46.dir\TestEndianess.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\TestEndianess.c
+Linking C executable cmTC_c7b46
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c7b46.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_c7b46.dir/TestEndianess.c.o -o cmTC_c7b46  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_05014/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_05014.dir\build.make CMakeFiles/cmTC_05014.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05014.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_05014.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_05014
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_05014.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_05014.dir/CheckIncludeFile.c.o -o cmTC_05014  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_0e277/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0e277.dir\build.make CMakeFiles/cmTC_0e277.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e277.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_0e277.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_0e277
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0e277.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_0e277.dir/CheckIncludeFile.c.o -o cmTC_0e277  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_c5c33/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c5c33.dir\build.make CMakeFiles/cmTC_c5c33.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5c33.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_c5c33.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_c5c33
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c5c33.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_c5c33.dir/CheckIncludeFile.c.o -o cmTC_c5c33  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_40ff4/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_40ff4.dir\build.make CMakeFiles/cmTC_40ff4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40ff4.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_40ff4.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_40ff4
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_40ff4.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_40ff4.dir/CheckIncludeFile.c.o -o cmTC_40ff4  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_aea86/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_aea86.dir\build.make CMakeFiles/cmTC_aea86.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aea86.dir/CheckFunctionExists.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_aea86.dir\CheckFunctionExists.c.o   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_aea86
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aea86.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_aea86.dir/CheckFunctionExists.c.o -o cmTC_aea86  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_92027/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_92027.dir\build.make CMakeFiles/cmTC_92027.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92027.dir/CheckIncludeFile.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_92027.dir\CheckIncludeFile.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_92027
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_92027.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_92027.dir/CheckIncludeFile.c.o -o cmTC_92027  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CXX_HAS_MFPU_NEON succeeded with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7cf08/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7cf08.dir\build.make CMakeFiles/cmTC_7cf08.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cf08.dir/src.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -fno-tree-vectorize -DCXX_HAS_MFPU_NEON -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -mfpu=neon -o CMakeFiles\cmTC_7cf08.dir\src.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_7cf08
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7cf08.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -fno-tree-vectorize -DCXX_HAS_MFPU_NEON -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_7cf08.dir/src.cxx.o -o cmTC_7cf08  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS_MFPU_NEON succeeded with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ecfd0/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ecfd0.dir\build.make CMakeFiles/cmTC_ecfd0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecfd0.dir/src.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -fno-tree-vectorize -DC_HAS_MFPU_NEON -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -mfpu=neon -o CMakeFiles\cmTC_ecfd0.dir\src.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_ecfd0
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ecfd0.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -fno-tree-vectorize -DC_HAS_MFPU_NEON -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc  CMakeFiles/cmTC_ecfd0.dir/src.c.o -o cmTC_ecfd0  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_60319/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_60319.dir\build.make CMakeFiles/cmTC_60319.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60319.dir/src.cxx.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-g++.exe  -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_CXX11 -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -std=c++11 -o CMakeFiles\cmTC_60319.dir\src.cxx.o -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_60319
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_60319.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -frtti -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_CXX11 -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_60319.dir/src.cxx.o -o cmTC_60319  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a" "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if files pthread.h exist passed with the following output:
+Change Dir: C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7287a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7287a.dir\build.make CMakeFiles/cmTC_7287a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7287a.dir/CheckIncludeFiles.c.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -DANDROID -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\platforms\android-9\arch-arm\usr\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\libs\armeabi-v7a\include -isystem C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\sources\cxx-stl\gnu-libstdc++\4.9\include\backward  -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -o CMakeFiles\cmTC_7287a.dir\CheckIncludeFiles.c.o   -c C:\Users\Shahbaz\Downloads\opencv-master\opencv-master\platforms\android_arm\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+Linking C executable cmTC_7287a
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7287a.dir\link.txt --verbose=1
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc.exe -fexceptions -fpic -Wno-psabi --sysroot=C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -fomit-frame-pointer  -mfp16-format=ieee -fvisibility=hidden  -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc   CMakeFiles/cmTC_7287a.dir/CheckIncludeFiles.c.o -o cmTC_7287a  -L\libs\armeabi-v7a  "C:/Users/Shahbaz/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,2293 @@
+use_cache "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache"
+do_unpack "protobuf-cpp-3.1.0.tar.gz" "bd5e3eed635a8d32e2b99658633815ef" "https://github.com/google/protobuf/releases/download/v3.1.0/protobuf-cpp-3.1.0.tar.gz" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/protobuf"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/protobuf/bd5e3eed635a8d32e2b99658633815ef-protobuf-cpp-3.1.0.tar.gz" "https://github.com/google/protobuf/releases/download/v3.1.0/protobuf-cpp-3.1.0.tar.gz"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/protobuf/bd5e3eed635a8d32e2b99658633815ef-protobuf-cpp-3.1.0.tar.gz"
+#mkdir "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/protobuf"
+#unpack "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/protobuf" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/protobuf/bd5e3eed635a8d32e2b99658633815ef-protobuf-cpp-3.1.0.tar.gz"
+do_unpack "v1.0.0a3.tar.gz" "adb1c512e09ca2c7a6faef36f9c53e59" "https://github.com/tiny-dnn/tiny-dnn/archive/v1.0.0a3.tar.gz" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/tinydnn"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/tiny_dnn/adb1c512e09ca2c7a6faef36f9c53e59-v1.0.0a3.tar.gz" "https://github.com/tiny-dnn/tiny-dnn/archive/v1.0.0a3.tar.gz"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/tiny_dnn/adb1c512e09ca2c7a6faef36f9c53e59-v1.0.0a3.tar.gz"
+#mkdir "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/tinydnn"
+#unpack "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/3rdparty/tinydnn" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/tiny_dnn/adb1c512e09ca2c7a6faef36f9c53e59-v1.0.0a3.tar.gz"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_PROTOBUF_HASH_3rdparty_protobuf_protobuf_cpp_3_1_0_tar_gz"
+do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+# timeout on name lookup is not supported
+#   Trying 151.101.128.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.128.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 197 bytes...
+# schannel: sent initial handshake data: sent 197 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 2920 length 4096
+# schannel: encrypted data length: 2846
+# schannel: encrypted data buffer: offset 2846 length 4096
+# schannel: received incomplete message, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 3534 length 4096
+# schannel: sending next handshake data: sending 126 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.51.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 5576
+# schannel: encrypted data buffer: offset 5576 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 2788
+# schannel: encrypted data cached: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 5518 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 5518 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 5518
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "5b58aaf64a7aad1d79de3b7a5bdad3a4312b84ea"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: 4672:73B9:24E9015:2676B2B:5912FDF1
+# Content-Length: 14852
+# Accept-Ranges: bytes
+# Date: Wed, 10 May 2017 11:48:43 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-lcy1130-LCY
+# X-Cache: HIT
+# X-Cache-Hits: 1
+# X-Timer: S1494416923.011626,VS0,VE1
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 3eb753314e0d01e6dd1a8adbd68870d279708031
+# Expires: Wed, 10 May 2017 11:53:43 GMT
+# Source-Age: 41
+# 
+# [4686 bytes data]
+# schannel: client wants to read 10166 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 2920 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 132
+# schannel: encrypted data cached: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 7407 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 7407 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1592 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 7407 bytes
+# schannel: encrypted data buffer: offset 1592 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3052 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 264
+# schannel: encrypted data cached: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 4648 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 4648 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3184 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 396
+# schannel: encrypted data cached: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 1889 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 1889 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1856 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 1889 bytes
+# schannel: encrypted data buffer: offset 1856 length 17408
+# schannel: encrypted data got 62
+# schannel: encrypted data buffer: offset 1918 length 17408
+# schannel: decrypted data length: 1889
+# schannel: decrypted data added: 1889
+# schannel: decrypted data cached: offset 1889 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 1889 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 1889
+# schannel: decrypted data buffer: offset 0 length 16384
+# [1889 bytes data]
+# Curl_http_done: called premature == 0
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+# timeout on name lookup is not supported
+#   Trying 151.101.128.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.128.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 197 bytes...
+# schannel: sent initial handshake data: sent 197 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 1460 length 4096
+# schannel: encrypted data length: 1386
+# schannel: encrypted data buffer: offset 1386 length 4096
+# schannel: received incomplete message, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 3534 length 4096
+# schannel: sending next handshake data: sending 126 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.51.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: encrypted data got 2788
+# schannel: encrypted data buffer: offset 4248 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1460
+# schannel: encrypted data cached: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "c8803d1227c4b68a8ddf66044bd21e7ec3676f4d"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: DCE8:34B9:1CBCF29:1DD711D:5912FE1C
+# Content-Length: 14864
+# Accept-Ranges: bytes
+# Date: Wed, 10 May 2017 11:48:44 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-lhr6336-LHR
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1494416925.543760,VS0,VE76
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 70d1176cecef861f48486df1dc164daf20267479
+# Expires: Wed, 10 May 2017 11:53:44 GMT
+# Source-Age: 0
+# 
+# [1926 bytes data]
+# schannel: client wants to read 12938 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 12938 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: encrypted data got 1328
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 10179 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 2920 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 132
+# schannel: encrypted data cached: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 7420 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 7420 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3052 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 264
+# schannel: encrypted data cached: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 4661 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 4661 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 4661 bytes
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3184 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 396
+# schannel: encrypted data cached: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 1902 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 1902 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: encrypted data got 1535
+# schannel: encrypted data buffer: offset 1931 length 17408
+# schannel: decrypted data length: 1902
+# schannel: decrypted data added: 1902
+# schannel: decrypted data cached: offset 1902 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 1902 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 1902
+# schannel: decrypted data buffer: offset 0 length 16384
+# [1902 bytes data]
+# Curl_http_done: called premature == 0
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm_bi.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+# timeout on name lookup is not supported
+#   Trying 151.101.128.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.128.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 197 bytes...
+# schannel: sent initial handshake data: sent 197 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 1460 length 4096
+# schannel: encrypted data length: 1386
+# schannel: encrypted data buffer: offset 1386 length 4096
+# schannel: received incomplete message, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 3534 length 4096
+# schannel: sending next handshake data: sending 126 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.51.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: encrypted data got 1328
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "f0ab4090f9012bd02c0bc1bab5a84c01ce221988"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: D95E:1C736:3545156:376CA8C:5912FDF1
+# Content-Length: 7832
+# Accept-Ranges: bytes
+# Date: Wed, 10 May 2017 11:48:45 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-lcy1128-LCY
+# X-Cache: HIT
+# X-Cache-Hits: 1
+# X-Timer: S1494416926.554491,VS0,VE1
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 0264407b6a953cc2ce21d5b2807bbb2d41e1467f
+# Expires: Wed, 10 May 2017 11:53:45 GMT
+# Source-Age: 43
+# 
+# [1927 bytes data]
+# schannel: client wants to read 5905 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 4248
+# schannel: encrypted data buffer: offset 4248 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1460
+# schannel: encrypted data cached: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 3146 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 3146 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2920 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 132
+# schannel: encrypted data cached: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 387 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 387 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: encrypted data got 284
+# schannel: encrypted data buffer: offset 416 length 17408
+# schannel: decrypted data length: 387
+# schannel: decrypted data added: 387
+# schannel: decrypted data cached: offset 387 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 387 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 387
+# schannel: decrypted data buffer: offset 0 length 16384
+# [387 bytes data]
+# Curl_http_done: called premature == 0
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_bgm_hd.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+# timeout on name lookup is not supported
+#   Trying 151.101.128.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.128.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 197 bytes...
+# schannel: sent initial handshake data: sent 197 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 3608 length 4096
+# schannel: sending next handshake data: sending 126 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.51.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2788
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "284e89a1620c2f400425fbb3f3a9296c3072cb6b"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: 3616:4C39:3E9747:41DCCA:5912FE1D
+# Content-Length: 138093
+# Accept-Ranges: bytes
+# Date: Wed, 10 May 2017 11:48:46 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-lhr6338-LHR
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1494416927.812452,VS0,VE76
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: 0abab9264c405aafe3acb81f19b3a51cdbac53f2
+# Expires: Wed, 10 May 2017 11:53:46 GMT
+# Source-Age: 0
+# 
+# [1927 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2788
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 2920 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 132
+# schannel: encrypted data cached: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 132 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3052 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 264
+# schannel: encrypted data cached: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3184 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 396
+# schannel: encrypted data cached: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: encrypted data got 5840
+# schannel: encrypted data buffer: offset 6236 length 17408
+# schannel: decrypted data length: 2589
+# schannel: decrypted data added: 2589
+# schannel: decrypted data cached: offset 2589 length 16384
+# schannel: encrypted data length: 3618
+# schannel: encrypted data cached: offset 3618 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 5348 length 16384
+# schannel: encrypted data length: 830
+# schannel: encrypted data cached: offset 830 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 5348
+# schannel: decrypted data buffer: offset 0 length 16384
+# [5348 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3750 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 962
+# schannel: encrypted data cached: offset 962 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2422 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2422 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3882 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1094
+# schannel: encrypted data cached: offset 1094 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2554 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2554 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4014 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1226
+# schannel: encrypted data cached: offset 1226 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1226 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1226 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1226 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2686 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2686 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4146 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1358
+# schannel: encrypted data cached: offset 1358 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1358 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1358 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1358 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2818 length 17408
+# schannel: decrypted data length: 2589
+# schannel: decrypted data added: 2589
+# schannel: decrypted data cached: offset 2589 length 16384
+# schannel: encrypted data length: 200
+# schannel: encrypted data cached: offset 200 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2589
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2589 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 200 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 200 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 200 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1660 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1660 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3120 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3120 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4580 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4580 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6040 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6040 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7500 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7500 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8960 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8960 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10420 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10420 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11880 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11880 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13340 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13340 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14800 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14800 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16260 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 16260 length 17408
+# schannel: encrypted data got 1148
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 1772
+# schannel: encrypted data buffer: offset 2767 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2767 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4227 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4227 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 7147 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7147 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8607 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8607 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10067 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10067 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11527 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11527 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12987 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12987 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14447 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14447 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15907 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15907 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 17367 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 954
+# schannel: encrypted data cached: offset 954 length 17408
+# schannel: encrypted data buffer: offset 954 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 954 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 954 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 954 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3874 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3874 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5334 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5334 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6794 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6794 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8254 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8254 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9714 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9714 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11174 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11174 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12634 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12634 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14094 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14094 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15554 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15554 length 17408
+# schannel: encrypted data got 1854
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 1066
+# schannel: encrypted data buffer: offset 2061 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2061 length 17408
+# schannel: encrypted data got 10220
+# schannel: encrypted data buffer: offset 12281 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12281 length 17408
+# schannel: encrypted data got 5127
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 6553
+# schannel: encrypted data buffer: offset 7548 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7548 length 17408
+# schannel: encrypted data got 9860
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 16413
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 7853 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 6887
+# schannel: encrypted data buffer: offset 7882 length 17408
+# schannel: decrypted data length: 7853
+# schannel: decrypted data added: 7853
+# schannel: decrypted data cached: offset 7853 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 7853 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 7853
+# schannel: decrypted data buffer: offset 0 length 16384
+# [7853 bytes data]
+# Curl_http_done: called premature == 0
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_064.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+# timeout on name lookup is not supported
+#   Trying 151.101.128.133...
+# TCP_NODELAY set
+# Connected to raw.githubusercontent.com (151.101.128.133) port 443 (#0)
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 1/3)
+# schannel: disabled server certificate revocation checks
+# schannel: sending initial handshake data: sending 197 bytes...
+# schannel: sent initial handshake data: sent 197 bytes
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: failed to receive handshake, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 1460 length 4096
+# schannel: encrypted data length: 1386
+# schannel: encrypted data buffer: offset 1386 length 4096
+# schannel: received incomplete message, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 2846 length 4096
+# schannel: received incomplete message, need more data
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 3534 length 4096
+# schannel: sending next handshake data: sending 126 bytes...
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 2/3)
+# schannel: encrypted data buffer: offset 258 length 4096
+# schannel: SSL/TLS handshake complete
+# schannel: SSL/TLS connection with raw.githubusercontent.com port 443 (step 3/3)
+# schannel: stored credential handle in session cache
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i HTTP/1.1
+# Host: raw.githubusercontent.com
+# User-Agent: curl/7.51.0
+# Accept: */*
+# 
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17408
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1460 length 17408
+# schannel: encrypted data got 1328
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# HTTP/1.1 200 OK
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'
+# Strict-Transport-Security: max-age=31536000
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# ETag: "b14f723a4558b1b6b19d10b02ec810ca1f6a7c3a"
+# Content-Type: text/plain; charset=utf-8
+# Cache-Control: max-age=300
+# X-Geo-Block-List:
+# X-GitHub-Request-Id: 1FFC:4FC4:310D832:32FD3C6:5912FE22
+# Content-Length: 275322
+# Accept-Ranges: bytes
+# Date: Wed, 10 May 2017 11:48:50 GMT
+# Via: 1.1 varnish
+# Connection: keep-alive
+# X-Served-By: cache-lhr6322-LHR
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# X-Timer: S1494416931.675157,VS0,VE82
+# Vary: Authorization,Accept-Encoding
+# Access-Control-Allow-Origin: *
+# X-Fastly-Request-ID: cd2282feaa7e211a629419ef2d81d4477b3a9620
+# Expires: Wed, 10 May 2017 11:53:50 GMT
+# Source-Age: 0
+# 
+# [1925 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 2788
+# schannel: encrypted data buffer: offset 2788 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: decrypted data buffer: offset 2759 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 0 length 17408
+# schannel: encrypted data got 4380
+# schannel: encrypted data buffer: offset 4380 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1592
+# schannel: encrypted data cached: offset 1592 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1592 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3052 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 264
+# schannel: encrypted data cached: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 264 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1724 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3184 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 396
+# schannel: encrypted data cached: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 396 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1856 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1856 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3316 length 17408
+# schannel: decrypted data length: 2589
+# schannel: decrypted data added: 2589
+# schannel: decrypted data cached: offset 2589 length 16384
+# schannel: encrypted data length: 698
+# schannel: encrypted data cached: offset 698 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2589
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2589 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 698 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 698 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 698 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2158 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2158 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3618 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 830
+# schannel: encrypted data cached: offset 830 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 830 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2290 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2290 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3750 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 962
+# schannel: encrypted data cached: offset 962 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 962 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2422 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2422 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3882 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 1094
+# schannel: encrypted data cached: offset 1094 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 2759
+# schannel: decrypted data buffer: offset 0 length 16384
+# [2759 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1094 length 17408
+# schannel: encrypted data got 16314
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 2759 length 16384
+# schannel: encrypted data length: 14620
+# schannel: encrypted data cached: offset 14620 length 17408
+# schannel: decrypted data length: 2759
+# schannel: decrypted data added: 2759
+# schannel: decrypted data cached: offset 5518 length 16384
+# schannel: encrypted data length: 11832
+# schannel: encrypted data cached: offset 11832 length 17408
+# schannel: decrypted data length: 2589
+# schannel: decrypted data added: 2589
+# schannel: decrypted data cached: offset 8107 length 16384
+# schannel: encrypted data length: 9214
+# schannel: encrypted data cached: offset 9214 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 8107
+# schannel: decrypted data buffer: offset 0 length 16384
+# [8107 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9214 length 17408
+# schannel: encrypted data got 8194
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 9072
+# schannel: encrypted data buffer: offset 10067 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10067 length 17408
+# schannel: encrypted data got 7341
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 16413
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 2526
+# schannel: encrypted data buffer: offset 3521 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3521 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4981 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4981 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6441 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6441 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7901 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7901 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9361 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9361 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10821 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10821 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12281 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12281 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13741 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13741 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15201 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15201 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16661 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 248
+# schannel: encrypted data cached: offset 248 length 17408
+# schannel: encrypted data buffer: offset 248 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 248 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 248 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 248 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1708 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1708 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3168 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3168 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4628 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4628 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6088 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6088 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7548 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7548 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9008 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9008 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10468 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10468 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11928 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11928 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13388 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13388 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14848 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14848 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16308 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 16308 length 17408
+# schannel: encrypted data got 1100
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 360
+# schannel: encrypted data buffer: offset 1355 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1355 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2815 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2815 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4275 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4275 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5735 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5735 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7195 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7195 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8655 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8655 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10115 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10115 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11575 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11575 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13035 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13035 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14495 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14495 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15955 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15955 length 17408
+# schannel: encrypted data got 1453
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 7
+# schannel: encrypted data buffer: offset 1002 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1002 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 3922 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3922 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5382 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5382 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6842 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6842 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8302 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8302 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9762 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9762 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11222 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11222 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12682 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12682 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14142 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14142 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15602 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15602 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 17062 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 649
+# schannel: encrypted data cached: offset 649 length 17408
+# schannel: encrypted data buffer: offset 649 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 649 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 649 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 649 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2109 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2109 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3569 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3569 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5029 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5029 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6489 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6489 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7949 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7949 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9409 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9409 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10869 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10869 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12329 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12329 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13789 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13789 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15249 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15249 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16709 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 296
+# schannel: encrypted data cached: offset 296 length 17408
+# schannel: encrypted data buffer: offset 296 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 296 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 296 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 296 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1756 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1756 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3216 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3216 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4676 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4676 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6136 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6136 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7596 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7596 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9056 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9056 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10516 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10516 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11976 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11976 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13436 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13436 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14896 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14896 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16356 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 16356 length 17408
+# schannel: encrypted data got 1052
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 408
+# schannel: encrypted data buffer: offset 1403 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1403 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2863 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2863 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4323 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4323 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5783 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5783 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7243 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7243 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8703 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8703 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10163 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10163 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11623 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11623 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13083 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13083 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14543 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14543 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16003 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 16003 length 17408
+# schannel: encrypted data got 1405
+# schannel: encrypted data buffer: offset 17408 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 995
+# schannel: encrypted data cached: offset 995 length 17408
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 995 length 17408
+# schannel: encrypted data got 55
+# schannel: encrypted data buffer: offset 1050 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1050 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2510 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2510 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3970 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3970 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5430 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5430 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6890 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6890 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 8350 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 8350 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9810 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9810 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 11270 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 11270 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 14190 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14190 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15650 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15650 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 17110 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 697
+# schannel: encrypted data cached: offset 697 length 17408
+# schannel: encrypted data buffer: offset 697 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 697 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 697 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 697 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 2157 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2157 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3617 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3617 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 5077 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 5077 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6537 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6537 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7997 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7997 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 9457 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 9457 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 10917 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10917 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12377 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12377 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13837 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13837 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 15297 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 15297 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16757 length 17408
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 344
+# schannel: encrypted data cached: offset 344 length 17408
+# schannel: encrypted data buffer: offset 344 length 17408
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 344 length 17408
+# schannel: Curl_read_plain returned CURLE_AGAIN
+# schannel: encrypted data buffer: offset 344 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 344 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 1804 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1804 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 3264 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 3264 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 4724 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 4724 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 6184 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 6184 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 7644 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 7644 length 17408
+# schannel: encrypted data got 2920
+# schannel: encrypted data buffer: offset 10564 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 10564 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 12024 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 12024 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 13484 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 13484 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 14944 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 14944 length 17408
+# schannel: encrypted data got 1460
+# schannel: encrypted data buffer: offset 16404 length 17408
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encdata_buffer resized 17428
+# schannel: encrypted data buffer: offset 16404 length 17428
+# schannel: encrypted data got 1024
+# schannel: encrypted data buffer: offset 17428 length 17428
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 1015
+# schannel: encrypted data cached: offset 1015 length 17428
+# schannel: encrypted data buffer: offset 1015 length 17428
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 1015 length 17428
+# schannel: encrypted data got 1896
+# schannel: encrypted data buffer: offset 2911 length 17428
+# schannel: failed to decrypt data, need more data
+# schannel: schannel_recv cleanup
+# schannel: client wants to read 16384 bytes
+# schannel: encrypted data buffer: offset 2911 length 17428
+# schannel: encrypted data got 14517
+# schannel: encrypted data buffer: offset 17428 length 17428
+# schannel: decrypted data length: 16384
+# schannel: decrypted data added: 16384
+# schannel: decrypted data cached: offset 16384 length 16384
+# schannel: encrypted data length: 1015
+# schannel: encrypted data cached: offset 1015 length 17428
+# schannel: encrypted data buffer: offset 1015 length 17428
+# schannel: decrypted data buffer: offset 16384 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 16384
+# schannel: decrypted data buffer: offset 0 length 16384
+# [16384 bytes data]
+# schannel: client wants to read 14012 bytes
+# schannel: encrypted data buffer: offset 1015 length 17428
+# schannel: encrypted data got 13026
+# schannel: encrypted data buffer: offset 14041 length 17428
+# schannel: decrypted data length: 14012
+# schannel: decrypted data added: 14012
+# schannel: decrypted data cached: offset 14012 length 16384
+# schannel: encrypted data buffer: offset 0 length 17428
+# schannel: decrypted data buffer: offset 14012 length 16384
+# schannel: schannel_recv cleanup
+# schannel: decrypted data returned 14012
+# schannel: decrypted data buffer: offset 0 length 16384
+# [14012 bytes data]
+# Curl_http_done: called premature == 0
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_128.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_binboost_256.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/boostdesc_lbgm.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_48.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_64.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_80.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d"
+#missing "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+#check_md5 "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#copy "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/platforms/android_arm/downloads/xfeatures2d/vgg_generated_120.i" "C:/Users/Shahbaz/Downloads/opencv-master/opencv-master/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"

@@ -1,0 +1,2 @@
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc-ar.exe qc ..\..\lib\armeabi-v7a\libopencv_plot.a  CMakeFiles/opencv_plot.dir/src/plot.cpp.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-ranlib.exe ..\..\lib\armeabi-v7a\libopencv_plot.a

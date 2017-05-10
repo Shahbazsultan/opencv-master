@@ -1,0 +1,2 @@
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-gcc-ar.exe qc ..\..\lib\armeabi-v7a\libopencv_structured_light.a  CMakeFiles/opencv_structured_light.dir/src/graycodepattern.cpp.o CMakeFiles/opencv_structured_light.dir/src/sinusoidalpattern.cpp.o
+C:\Users\Shahbaz\AppData\Local\Android\sdk\ndk-bundle\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-ranlib.exe ..\..\lib\armeabi-v7a\libopencv_structured_light.a
